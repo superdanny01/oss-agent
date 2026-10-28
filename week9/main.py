@@ -1,0 +1,8 @@
+import tools
+#print(tools.get_boxoffice_rank_1("20260824"))
+#print(tools.get_boxoffice_rank_1.__doc__) 
+
+
+print(tools.get_movie_audience("20260824", "오디세이"))
+print(tools.get_movie_audience("20260824", "호프"))
+print(tools.get_movie_audience("20260824", "없는영화"))
