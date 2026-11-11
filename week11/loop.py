@@ -93,7 +93,7 @@ def run(question):
 
             # [빈칸 2] 이름으로 함수를 찾기
             #   FUNCTIONS 사전에서 name 에 해당하는 함수를 꺼내 func 에 담는다
-            func = None
+            func = FUNCTIONS[name]
             if func is None:
                 stop_at_blank(2, "96", f"FUNCTIONS 사전에서 '{name}' 함수를 꺼내 func 에 담을 것.")
             result = func(**args)
